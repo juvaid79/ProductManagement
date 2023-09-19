@@ -1,9 +1,7 @@
 
 const { Sequelize } = require("sequelize");
 const sequelize = new Sequelize(
-   'db_sdirect',
-   'sdirect',
-   'Sm@rtPu92023',
+ //database config
    {
       host: '192.168.0.2',
       dialect: 'mysql'
